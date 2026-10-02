@@ -1,0 +1,22 @@
+#lje-export-btn {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 2147483647;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 20px;
+  background: #0a66c2;
+  color: #fff;
+  font: 600 14px/1 -apple-system, "Segoe UI", Roboto, sans-serif;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+#lje-export-btn:hover {
+  background: #004182;
+}
+
+#lje-export-btn[data-state="error"] {
+  background: #b42318;
+}
